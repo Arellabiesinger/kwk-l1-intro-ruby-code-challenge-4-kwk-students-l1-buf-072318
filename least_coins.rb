@@ -6,3 +6,7 @@ if cents >= 25
   "Q" = cents / 25 
   cents -= 25 * "Q"
 end
+elsif cents >= 10  
+  "Q" = cents / 10  
+  cents -= 10 * "D"
+end
