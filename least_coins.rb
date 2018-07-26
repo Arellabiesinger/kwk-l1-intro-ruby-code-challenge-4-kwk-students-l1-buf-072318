@@ -18,6 +18,8 @@ if cents >= 1
   coins[:pennies] = cents / 1  
   cents -= 1 * coins[:pennies]
 end
+
+coins
   end
-  least_coins
+
 
