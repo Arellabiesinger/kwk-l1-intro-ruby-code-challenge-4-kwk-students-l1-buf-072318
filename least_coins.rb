@@ -1,6 +1,6 @@
 #write out your code here
 
-def least_coins(cents)
+  def least_coins(cents)
   coins =  {"Q" => 0, "D" => 0, "N" => 0, "P" => 0}
 if cents >= 25 
   "Q" = cents / 25 
@@ -14,3 +14,9 @@ if cents >= 5
   "N" = cents / 5  
   cents -= 5 * "N"
 end
+if cents >= 1  
+  "P" = cents / 1  
+  cents -= 1 * "P"
+end
+  end
+
