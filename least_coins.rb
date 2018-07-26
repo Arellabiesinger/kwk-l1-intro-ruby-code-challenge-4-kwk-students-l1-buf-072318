@@ -1,22 +1,22 @@
 #write out your code here
 
   def least_coins(cents)
-  coins =  {"Q" => 0, "D" => 0, "N" => 0, "P" => 0}
+  coins =  {:quarters => 0, :dimes => 0, :nickels => 0, :pennies => 0}
 if cents >= 25 
-  coins["Q"] = cents / 25 
-  cents -= 25 * "Q"
+  coins[:quarters] = cents / 25 
+  cents -= 25 * [:quarters]
 end
 if cents >= 10  
-  coins["D"] = cents / 10  
-  cents -= 10 * "D"
+  coins[:dimes] = cents / 10  
+  cents -= 10 * [:dimes]
 end
 if cents >= 5  
-  coins["N"] = cents / 5  
-  cents -= 5 * "N"
+  coins[:nickels] = cents / 5  
+  cents -= 5 * [:nickels]
 end
 if cents >= 1  
-  coins["P"] = cents / 1  
-  cents -= 1 * "P"
+  coins[:pennies] = cents / 1  
+  cents -= 1 * [:pennies]
 end
   end
 
