@@ -21,5 +21,6 @@ end
 
 coins
   end
+  puts least_coins(14)
 
 
