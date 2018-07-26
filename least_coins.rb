@@ -10,3 +10,7 @@ if cents >= 10
   "D" = cents / 10  
   cents -= 10 * "D"
 end
+if cents >= 5  
+  "N" = cents / 5  
+  cents -= 5 * "N"
+end
