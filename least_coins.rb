@@ -21,6 +21,6 @@ end
 
 coins
   end
-  puts least_coins
+  puts least_coins( 67)
 
 
